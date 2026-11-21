@@ -1,0 +1,8 @@
+{
+  "student": "Lina Farah Bensot",
+  "title": "Portfolio DevOps & Génie Logiciel",
+  "projects": [
+    { "name": "Lab CI/CD", "tech": "YAML, Node.js, Pages" },
+    { "name": "Docker & Swarm", "tech": "Conteneurs, Réseau Overlay" }
+  ]
+}

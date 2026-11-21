@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Mini Projet CI/CD</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1 id="name"></h1>
+  <p id="title"></p>
+  <div id="list"></div>
+  <script>
+    fetch('data.json').then(r => r.json()).then(d => {
+      document.getElementById('name').textContent = d.student;
+      document.getElementById('title').textContent = d.title;
+      d.projects.forEach(p => {
+        document.getElementById('list').innerHTML += `<div class="card"><b>${p.name}</b> - ${p.tech}</div>`;
+      });
+    });
+  </script>
+</body>
+</html>

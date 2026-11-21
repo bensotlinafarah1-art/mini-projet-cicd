@@ -1,0 +1,2 @@
+body { font-family: sans-serif; background: #f4f5f7; text-align: center; padding: 30px; }
+.card { background: white; max-width: 400px; margin: 10px auto; padding: 15px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
